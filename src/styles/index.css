@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Amaranth', sans-serif;
     background-color: #000000;
 }
 .ticTacToe {
@@ -10,7 +9,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Amaranth', sans-serif;
     flex-direction: column;
 }
 
