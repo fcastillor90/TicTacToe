@@ -6,7 +6,7 @@ import { Patterns } from "./patterns.jsx";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const Board = () => {
 	const [board, setBoard] = useState(["", "", "", "", "", "", "", "", "",])
 	const [player, setPlayer] = useState("O");
 	const [result, setResult] = useState ({winner: "none", state: "none" })
@@ -76,7 +76,6 @@ const Home = () => {
 
 	return (
 		<div className="ticTacToe">
-			<h1>Tiki Taka Toke <br /> Simpleciiiiiiito</h1>
 			<div className="board">
 				<div className="row">
 					<Square game={board [0]} chooseSquare={() => {changeSquare (0)}} />
@@ -98,4 +97,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Board;
