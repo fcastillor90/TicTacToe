@@ -20,9 +20,12 @@ const Home = () => {
                     </h1>
 				</div>
 			</div>
-			{
+            <div className="mimama">
+              {
 				stateGame === "Lobby"? <Lobby goGame= {setStateGame} setPlayers={setPlayers}/> : <Board Players={Players}/>
-			}
+			  }  
+            </div>
+			
 
 		</div>
 	);
