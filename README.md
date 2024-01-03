@@ -1,3 +1,14 @@
+# Preview
+![tictactoe](https://github.com/fcastillor90/TicTacToe/assets/122224880/b7be9bfb-dbab-4da9-b6fc-8ab23205921b)
+
+
+
+
+
+
+
+
+
 # Hello World with React boilerplate
 
 Start coding a react application
